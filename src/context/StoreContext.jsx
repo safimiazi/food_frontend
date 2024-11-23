@@ -34,7 +34,7 @@ const StoreContextProvider = ({ children }) => {
     addToCart,
     removeFromCart,
     cartItems,
-    getTotalCartAmount
+    getTotalCartAmount,
   };
   return (
     <StoreContext.Provider value={contextValue}>
